@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+	<style type="text/css">
+		div p{
+			background: yellow;
+		}
+		div +p{
+			background: red;
+		}
+		div ~ p{
+			background: pink;
+		}
+		
+	</style>
+</head>
+<body>
+	<div>
+		<p>This is in div</p>
+		<p>This is in div</p>
+	</div>
+	<p>This is not div</p>
+	<p>This is not div</p>
+	<p>This is not div</p>
+
+</body>
+</html>

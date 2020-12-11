@@ -1,0 +1,29 @@
+div{
+	background: black;
+	width: 500px;
+   height: 500px;
+   position: absolute;
+   left: 100px;
+   top: 50px;
+}
+
+div#border{
+	position: absolute;
+	background: white;
+	border: 5px solid green;
+	width: 500px;
+   height: 500px;
+   top: 100px;
+   left: 50px;
+
+
+}
+
+
+h1{
+	text-align: center;
+	size: 48px;
+	color: red;
+	text-decoration: underline;
+	text-decoration-color: green;
+}
