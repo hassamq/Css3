@@ -1,0 +1,50 @@
+.circle{
+    border-style:groove;
+    border-width: 1px;
+    background-color:purple;
+    width: 300px;
+    height: 300px;
+    transition:  width 2s , height 2s , transform 2s;
+    
+}
+
+.circle:hover{
+    width: 500px;
+    height: 500px;
+    
+    background-color: darkorange;
+    border-radius: 50%;
+    transform:rotate(90deg);
+    
+
+}
+ section div{
+     width: 50px;
+     height: 50px;
+     background-color: gold;
+     margin: 20px 0px;
+     transition: 5s;
+ }
+
+
+ section:hover div{
+     background-color: goldenrod;
+     margin-left: 50%;
+ }
+ div :nth-of-type(1){
+     transition-timing-function: ease-in;
+ }
+ div :nth-of-type(2){
+    transition-timing-function: ease-out;
+}
+
+
+
+h1{
+    color: brown;
+}
+
+
+img:hover{
+    transform:rotatez(90deg);
+}
